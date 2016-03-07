@@ -50,10 +50,10 @@
                                 <rect key="frame" x="0.0" y="291" width="414" height="154"/>
                                 <subviews>
                                     <view contentMode="redraw" semanticContentAttribute="spatial" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F7f-qR-i8O">
-                                        <rect key="frame" x="8" y="21" width="270" height="50"/>
+                                        <rect key="frame" x="8" y="21" width="270" height="44"/>
                                         <subviews>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" semanticContentAttribute="spatial" fixedFrame="YES" restorationIdentifier="textLogin" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder=" Login " minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="oLW-Hk-yNx" userLabel="textLogin">
-                                                <rect key="frame" x="8" y="8" width="254" height="35"/>
+                                                <rect key="frame" x="2" y="3" width="266" height="36"/>
                                                 <color key="backgroundColor" red="0.28235294119999998" green="0.64705882349999999" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -71,8 +71,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocB-8k-Ai9">
-                                        <rect key="frame" x="281" y="65" width="51" height="47"/>
+                                        <rect key="frame" x="278" y="60" width="56" height="42"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="19"/>
                                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <size key="titleShadowOffset" width="1" height="1"/>
                                         <state key="normal" title="OK"/>
@@ -82,10 +83,10 @@
                                         </state>
                                     </button>
                                     <view contentMode="redraw" semanticContentAttribute="spatial" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ovU-1l-Mdx">
-                                        <rect key="frame" x="8" y="65" width="270" height="47"/>
+                                        <rect key="frame" x="8" y="63" width="270" height="39"/>
                                         <subviews>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="textPass" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder=" Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l5x-gi-NOW" userLabel="textPassword">
-                                                <rect key="frame" x="8" y="6" width="254" height="36"/>
+                                                <rect key="frame" x="2" y="0.0" width="266" height="36"/>
                                                 <color key="backgroundColor" red="0.28235294119999998" green="0.64705882349999999" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
