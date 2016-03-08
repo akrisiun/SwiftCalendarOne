@@ -22,3 +22,22 @@ cd <repo>
 bundle install
 bundle exec fastlane oss
 ```
+
+### Installing Swift 2.2
+
+https://swift.org/getting-started/#installing-swift
+
+On OS X
+The default location for the downloadable toolchain on OS X is /Library/Developer/Toolchains. You can make the tools available for use from the terminal with the following command:
+
+download
+https://swift.org/builds/swift-2.2-branch/xcode/swift-2.2-SNAPSHOT-2016-03-01-a/swift-2.2-SNAPSHOT-2016-03-01-a-osx.pkg
+
+https://swift.org/builds/swift-2.2-branch/xcode/swift-2.2-SNAPSHOT-2016-03-01-a/swift-2.2-SNAPSHOT-2016-03-01-a-osx-symbols.pkg
+
+install pkg file (~600 MB)
+
+```
+cd /Library/Developer/Toolchains
+$ export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:"${PATH}"
+```
