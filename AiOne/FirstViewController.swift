@@ -15,7 +15,8 @@ class FirstViewController: UIViewController {
     @IBOutlet var textPassword: UITextField!
     @IBOutlet var textLogin: UITextField!
     
-    override func viewDidLoad() {
+    override func viewDidLoad() 
+    {
         super.viewDidLoad()
 
         
@@ -46,6 +47,54 @@ class FirstViewController: UIViewController {
          abort()
       } */
         
+      keyboardBind()
+    }
+    
+    
+    /* In the ViewDidLoad method of your class set up to listen for messages about the keyboard:
+    
+    // Listen for keyboard appearances and disappearances
+    [[NSNotificationCenter defaultCenter] addObserver:self
+    selector:@selector(keyboardDidShow:)
+    name:UIKeyboardDidShowNotification
+    object:nil]; 
+    */
+    
+    func keyboardBind() {
+        // super.viewDidLoad()
+        
+        //NSNotificationCenter.defaultCenter().addObserver(self, selector:"keyboardWillAppear:", 
+            // name: //UIKeyboardWillShowNotification, object: nil)
+        //NSNotificationCenter.defaultCenter().addObserver(self, selector:"keyboardWillDisappear:",
+            // name:        UIKeyboardWillHideNotification, object: nil)
+        
+        NSNotificationCenter.defaultCenter()
+            .addObserver(self,
+                         selector: #selector(keyboardWillAppear(_:)),
+                         name: UIKeyboardWillShowNotification, object: nil)
+            //name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        
+        NSNotificationCenter.defaultCenter()
+            .addObserver(self,
+                         selector: #selector(keyboardWillDisappear(_:)),
+                         name: UIKeyboardWillHideNotification, object: nil)
+            //name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+
+    }
+    
+    func keyboardWillAppear(notification: NSNotification) {
+        // Do something here
+    }
+    
+    func keyboardWillDisappear(notification: NSNotification) {
+        // Do something here
+    }
+    
+    
+    // You can make the app dismiss the keyboard using the following function
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
     
    // override func viewDidUnload() {
@@ -61,6 +110,11 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    // Also, if you want to hide the keyboard if you touch anywhere else on the screen:
+    // override
+    // func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    //    self.view.endEditing(true);
+    // }
+    
 }
 
