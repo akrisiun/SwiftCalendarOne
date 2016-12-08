@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FC9845FCE8040503619871D64BB46FF364269046",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "87689B71D8B4B03CD41484A1101586AF74C9E07B" : 9223372036854775807,
+    "FC9845FCE8040503619871D64BB46FF364269046" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "695923C1-3BC6-4AF8-8919-EB751A33B523",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "87689B71D8B4B03CD41484A1101586AF74C9E07B" : "..",
+    "FC9845FCE8040503619871D64BB46FF364269046" : "AiOne\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FoodTracker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Tutorials\/Start-Dev-CustomControl\/FoodTracker - Implement a Custom Control\/FoodTracker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/bitbucket.org\/andriusk\/darwin",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87689B71D8B4B03CD41484A1101586AF74C9E07B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/akrisiun\/SwiftCalendarOne.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FC9845FCE8040503619871D64BB46FF364269046"
+    }
+  ]
+}

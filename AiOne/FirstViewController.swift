@@ -30,14 +30,14 @@ class FirstViewController: UIViewController {
         
         // try {
   
-            buttonOk?.layer.borderColor = redColor.CGColor;
+            buttonOk?.layer.borderColor = redColor.cgColor;
       
          //  myTextField.layer.borderColor = [UIColor blackColor].CGColor;
 
          
           textLogin.layer.cornerRadius = 0.0
           textLogin.layer.masksToBounds = true
-          textLogin.layer.borderColor = whiteColor.CGColor
+          textLogin.layer.borderColor = whiteColor.cgColor
       
         // myTextField.layer.borderColor = UIColor( red: 153/255, green: 153/255, blue:0/255, alpha: 1.0 ).CGColor
         // textLogin.layer.borderWidth = 2.0
@@ -67,28 +67,28 @@ class FirstViewController: UIViewController {
             // name: //UIKeyboardWillShowNotification, object: nil)
         //NSNotificationCenter.defaultCenter().addObserver(self, selector:"keyboardWillDisappear:",
             // name:        UIKeyboardWillHideNotification, object: nil)
-        
-        NSNotificationCenter.defaultCenter()
+  
+        /*
+        NotificationCenter.defaultCenter()
             .addObserver(self,
                          selector: #selector(keyboardWillAppear(_:)),
                          name: UIKeyboardWillShowNotification, object: nil)
             //name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         
-        NSNotificationCenter.defaultCenter()
+        NotificationCenter.default
             .addObserver(self,
                          selector: #selector(keyboardWillDisappear(_:)),
                          name: UIKeyboardWillHideNotification, object: nil)
             //name: NSNotification.Name.UIKeyboardWillHide, object: nil)
-
+*/
     }
     
-    func keyboardWillAppear(notification: NSNotification) {
+   // func keyboardWillAppear(notification: NSNotification) {
+   //     // Do something here
+   // }
+//    func keyboardWillDisappear(notification: NSNotification) {
         // Do something here
-    }
-    
-    func keyboardWillDisappear(notification: NSNotification) {
-        // Do something here
-    }
+  //  }
     
     
     // You can make the app dismiss the keyboard using the following function
@@ -101,7 +101,7 @@ class FirstViewController: UIViewController {
    //     super.viewdidUnload()
    // }
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated);
     }
 
